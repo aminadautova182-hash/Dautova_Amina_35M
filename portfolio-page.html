@@ -1,0 +1,255 @@
+<!doctype html>
+<html class="no-js" lang="uk">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Каталог послуг та ціни | Клінінг Одеса</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/fontAwesome.css">
+        <link rel="stylesheet" href="css/tooplate-style.css">
+
+        <style>
+            .category-header {
+                margin: 50px 0 30px;
+                border-bottom: 2px solid #800020;
+                padding-bottom: 10px;
+            }
+            .category-header h3 {
+                color: #4A1212;
+                font-weight: 700;
+                text-transform: uppercase;
+                margin: 0;
+            }
+            .service-card {
+                background: #f9f9f9;
+                border-radius: 8px;
+                overflow: hidden;
+                margin-bottom: 30px;
+                box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+                border-bottom: 4px solid #800020;
+            }
+            .service-card img {
+                width: 100%;
+                height: 200px;
+                object-fit: cover;
+            }
+            .service-card-body {
+                padding: 20px;
+                min-height: 190px;
+            }
+            .service-card-body h4 {
+                color: #1E293B;
+                font-weight: 700;
+                margin-top: 0;
+            }
+            .service-price {
+                display: inline-block;
+                background-color: #800020;
+                color: #ffffff;
+                padding: 5px 14px;
+                border-radius: 20px;
+                font-weight: 600;
+                font-size: 13px;
+                margin-bottom: 12px;
+            }
+            .back-btn {
+                display: inline-block;
+                margin-top: 25px;
+                background-color: #ffffff;
+                color: #4A1212;
+                padding: 10px 24px;
+                border-radius: 25px;
+                font-weight: 700;
+                text-decoration: none;
+            }
+            .back-btn:hover {
+                background-color: #1E293B;
+                color: #ffffff;
+                text-decoration: none;
+            }
+            .cat-nav {
+                text-align: center;
+                margin-top: 20px;
+            }
+            .cat-nav a {
+                display: inline-block;
+                background-color: #1E293B;
+                color: #ffffff;
+                padding: 10px 22px;
+                margin: 5px;
+                border-radius: 25px;
+                font-weight: 600;
+                text-decoration: none;
+            }
+            .cat-nav a:hover {
+                background-color: #800020;
+                color: #ffffff;
+            }
+        </style>
+    </head>
+    <body>
+
+        <!-- ШАПКА КАТАЛОГУ -->
+        <section class="first-section" style="background-image: none; background-color: #4A1212; padding: 90px 0 120px; clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="text-content">
+                  <h2>КАТАЛОГ ПОСЛУГ ТА ЦІНИ</h2>
+                  <div class="line-dec"></div>
+                  <span>Оберіть потрібну категорію прибирання</span>
+                  <br>
+                  <a href="index.html" class="back-btn"><i class="fa fa-arrow-left"></i> НА ГОЛОВНУ</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ШВИДКІ КНОПКИ КАТЕГОРІЙ -->
+        <div class="container">
+          <div class="cat-nav">
+            <a href="#cat-home">Квартири та будинки</a>
+            <a href="#cat-repair">Після ремонту</a>
+            <a href="#cat-extra">Хімчистка та вікна</a>
+          </div>
+
+          <!-- КАТЕГОРІЯ 1 -->
+          <div id="cat-home" class="category-header">
+            <h3>1. Прибирання квартир та будинків</h3>
+          </div>
+          <div class="row">
+            <div class="col-md-4 col-sm-6">
+              <div class="service-card">
+                <img src="img/generalne.prybyrannya.jpg" alt="">
+                <div class="service-card-body">
+                  <span class="service-price">від 2500 грн</span>
+                  <h4>Генеральне прибирання</h4>
+                  <p>Глибоке очищення всіх поверхонь, видалення жиру на кухні, миття санвузлів, дверей та важкодоступних місць.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <div class="service-card">
+                <img src="img/pro.companiyu.jpg" alt="">
+                <div class="service-card-body">
+                  <span class="service-price">від 1200 грн</span>
+                  <h4>Підтримуюче прибирання</h4>
+                  <p>Регулярне наведення чистоти: вологе прибирання підлоги, протирання пилу, чистка дзеркал та сантехніки.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <div class="service-card">
+                <img src="img/klining-v-murino-2.jpg" alt="">
+                <div class="service-card-body">
+                  <span class="service-price">від 35 грн / м²</span>
+                  <h4>Прибирання котеджів</h4>
+                  <p>Комплексний догляд за приватними будинками великої площі з використанням професійної техніки.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- КАТЕГОРІЯ 2 -->
+          <div id="cat-repair" class="category-header">
+            <h3>2. Прибирання після ремонту та для офісів</h3>
+          </div>
+          <div class="row">
+            <div class="col-md-4 col-sm-6">
+              <div class="service-card">
+                <img src="img/uborka.posle.remonta.bordo.jpg" alt="">
+                <div class="service-card-body">
+                  <span class="service-price">від 55 грн / м²</span>
+                  <h4>Після будівництва та ремонту</h4>
+                  <p>Знепилення стін та стелі промисловими пилососами, видалення слідів фарби, цементу, клею та скотчу.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <div class="service-card">
+                <img src="img/generalne.prybyrannya.jpg" alt="">
+                <div class="service-card-body">
+                  <span class="service-price">від 1800 грн</span>
+                  <h4>Прибирання офісів</h4>
+                  <p>Щоденне або генеральне прибирання робочих просторів, кабінетів та комерційних приміщень у зручний час.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <div class="service-card">
+                <img src="img/uborka.posle.remonta.bordo.jpg" alt="">
+                <div class="service-card-body">
+                  <span class="service-price">від 2200 грн</span>
+                  <h4>Прибирання після переїзду</h4>
+                  <p>Повна дезінфекція та підготовка квартири до заселення нових мешканців або після виїзду орендарів.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- КАТЕГОРІЯ 3 -->
+          <div id="cat-extra" class="category-header">
+            <h3>3. Миття вікон та виїзна хімчистка</h3>
+          </div>
+          <div class="row" style="margin-bottom: 60px;">
+            <div class="col-md-4 col-sm-6">
+              <div class="service-card">
+                <img src="img/okna.bordo.jpg" alt="">
+                <div class="service-card-body">
+                  <span class="service-price">від 150 грн / стулка</span>
+                  <h4>Миття вікон та балконів</h4>
+                  <p>Ідеальна прозорість без розводів. Очищення скла, рам, підвіконь, відливів та панорамного скління.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <div class="service-card">
+                <img src="img/klining-v-murino-2.jpg" alt="">
+                <div class="service-card-body">
+                  <span class="service-price">від 900 грн</span>
+                  <h4>Хімчистка м'яких меблів</h4>
+                  <p>Глибока екстракторна чистка диванів, матраців та крісел від плям, пилу та неприємних запахів вдома.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <div class="service-card">
+                <img src="img/pro.companiyu.jpg" alt="">
+                <div class="service-card-body">
+                  <span class="service-price">від 90 грн / м²</span>
+                  <h4>Хімчистка килимів</h4>
+                  <p>Виведення складних забруднень та відновлення ворсу килимів і ковроліну гіпоалергенними еко-засобами.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ПІДВАЛ САЙТУ -->
+        <footer style="background-image: none; background-color: #4A1212; padding-top: 80px; padding-bottom: 50px; clip-path: polygon(0 35%, 100% 0, 100% 100%, 0 100%);">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12 text-center" style="color: #ffffff;">
+                <ul>
+                  <li><a href="https://www.facebook.com/tooplate" style="color: #1E293B;"><i class="fa fa-facebook"></i></a></li>
+                  <li><a href="#" style="color: #1E293B;"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="#" style="color: #1E293B;"><i class="fa fa-linkedin"></i></a></li>
+                  <li><a href="#" style="color: #1E293B;"><i class="fa fa-rss"></i></a></li>
+                  <li><a href="#" style="color: #1E293B;"><i class="fa fa-dribbble"></i></a></li>
+                </ul>
+                <p style="font-size: 13px; line-height: 1.6; max-width: 700px; margin: 15px auto; color: #f0f0f0;">
+                  © 2026 Увага! Цей веб-сайт є навчальним проєктом, створеним виключно з освітньою метою в межах навчального курсу. Сайт не здійснює комерційної діяльності, не надає платних послуг і не призначений для отримання прибутку.
+                </p>
+                <p style="font-weight: 700; margin-top: 10px; color: #ffffff;">Зробила сайт: Даутова Аміна</p>
+              </div>
+            </div>
+          </div>
+        </footer>
+
+    </body>
+</html>
